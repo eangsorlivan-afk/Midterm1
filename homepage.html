@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            background-color: bisque;
+            
+        }
+        .hero h1{
+            margin: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            color:brown;
+            
+        }
+        .hero p{
+            margin: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+            margin-bottom: 20px;
+        }
+         button{
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            cursor:grab;
+            margin: 10px;
+        }
+        button:hover{
+            background-color:blue   ;
+            transform: rotate(360deg);
+            transition: 2s;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color:burlywood;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li{
+            margin-right: 25px;
+        }
+        nav ul a{
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            background-color:brown;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+
+        }
+        h2{
+            text-align: center;
+            color: burlywood;
+            font-size: 30px;
+            text-decoration:dashed;
+        }
+        footer{
+            background-color:bisque;
+            color:black;
+            text-align: center;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/course.html">Courses</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <img src="/PUC-logo-Website-blue-1-840x186.png" alt="">
+        <h1>Welcome to our page</h1>
+        <p>Educate ur children here a for better future</p>
+        <button>Join us</button>
+    </section>
+    <section>
+        <h2>About us</h2>
+        <p>PUC is a modern educational institution dedicated to providing high-quality learning in a safe, welcoming, and innovative environment. The school features spacious classrooms equipped with smart technology, science and computer laboratories, a well-stocked library, sports facilities, and creative arts rooms to support students' academic and personal growth.</p>
+        <p>At PUC, experienced and caring teachers encourage critical thinking, creativity, teamwork, and leadership through interactive lessons and hands-on activities. The school offers a balanced curriculum that combines strong academic foundations with extracurricular programs such as sports, music, art, robotics, and community service.</p>
+    </section>
+    <footer>
+        <p>Copyright &copy;2026; Designed by <span class="designer">Eang Sorlivan</span></p>
+    </footer>
+</body>
+</html>
